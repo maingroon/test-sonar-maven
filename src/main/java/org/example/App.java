@@ -4,19 +4,24 @@ package org.example;
  * Hello world!
  */
 public class App {
+
+    private static final int ONE = 1;
+    private static final int TWO = 2;
+    private static final int THREE = 3;
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
 
     public static int testOne() {
-        return 1;
+        return ONE;
     }
 
     public static int testTwo() {
-        return 2;
+        return TWO;
     }
 
     public static int testThree() {
-        return 3;
+        return THREE;
     }
 }
