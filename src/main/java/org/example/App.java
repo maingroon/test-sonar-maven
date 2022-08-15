@@ -15,4 +15,8 @@ public class App {
     public static int testTwo() {
         return 2;
     }
+
+    public static int testThree() {
+        return 3;
+    }
 }

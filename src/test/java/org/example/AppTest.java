@@ -17,6 +17,7 @@ public class AppTest {
         assertTrue(true);
     }
 
+    @Test
     public void shouldReturnOne() {
         assertEquals(1, App.testOne());
     }
@@ -24,5 +25,9 @@ public class AppTest {
     @Test
     public void shouldReturnTwo() {
         assertEquals(2, App.testTwo());
+    }
+
+    public void shouldReturnThree() {
+        assertEquals(3, App.testThree());
     }
 }
