@@ -8,6 +8,10 @@ public class App {
         System.out.println("Hello World!");
     }
 
+    public static int testOne() {
+        return 1;
+    }
+
     public static int testTwo() {
         return 2;
     }
